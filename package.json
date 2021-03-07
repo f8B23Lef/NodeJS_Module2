@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "task1": "nodemon ./task1/task1.js",
-    "task2": "nodemon ./task2/task2.js"
+    "task2": "nodemon ./task2/task2.js",
+    "task3_1": "nodemon --exec babel-node ./task3/task3_1/task3_1.js",
+    "task3_2": "nodemon --exec babel-node ./task3/task3_2/task3_2.js"
   },
   "nodemonConfig": {
     "restartable": false
@@ -22,6 +24,9 @@
   },
   "homepage": "https://github.com/f8B23Lef/NodeJS_Module2#readme",
   "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/node": "^7.13.0",
+    "@babel/preset-env": "^7.13.9",
     "nodemon": "^2.0.7"
   },
   "dependencies": {
