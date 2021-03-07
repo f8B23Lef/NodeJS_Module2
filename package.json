@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "task1": "nodemon ./task1/task1.js"
+    "task1": "nodemon ./task1/task1.js",
+    "task2": "nodemon ./task2/task2.js"
   },
   "nodemonConfig": {
     "restartable": false
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/f8B23Lef/NodeJS_Module2#readme",
   "devDependencies": {
     "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
   }
 }
